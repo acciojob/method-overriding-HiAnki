@@ -1,4 +1,6 @@
-public class B extends A{
+package com.driver;
+
+public class Bb extends Aa{
     @Override
     public String meth() {
         super.meth();

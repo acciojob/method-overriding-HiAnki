@@ -1,6 +1,9 @@
 package com.driver;
 
 public class Main {
-  B obj = new B();
-  obj.meth();
+  Bb obj;
+  public Main() {
+    obj = new Bb();
+    obj.meth();
+  }
 }
